@@ -1,0 +1,35 @@
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+}
+
+.dropdown-menu__item-link.btn {
+    height: 30px;
+    border-radius: 4px;
+    flex: 1;
+    justify-content: center;
+    color: #fff;
+}
+
+.but {
+    padding: 5px 10px;
+    background-color: #2ca8ff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 140px;
+    height: 32px;
+    border: none;
+}
+
+.but:hover {
+    opacity: 0.8;
+}
